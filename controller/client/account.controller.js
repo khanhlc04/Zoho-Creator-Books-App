@@ -1,4 +1,4 @@
-//Get Account Info for MyAccount
+// Model Account
 class Account {
     constructor(accountId, username, email, phone, cccd, status) {
         this.accountId = accountId;
@@ -9,6 +9,7 @@ class Account {
         this.status = status;
     }
 }
+//End Model Account
 
 //Get UserLogin Info
 let idRecord;
