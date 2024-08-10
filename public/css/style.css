@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+  --font-1: "Nunito Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/* Container */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* End Container */
+
+/* Section-1 */
+.section-1{
+    border-bottom: 1px solid black;
+    padding: 0 0 40px 0;
+    font-family: var(--font-1);
+}
+
+.section-1 .inner-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.section-1 .inner-image{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/* End Section-1 */
+
+/* Section 2 */
+    .section-2{
+    padding: 25px 0;
+    font-family: var(--font-1);
+}
+
+.section-2 form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section-2 .form-field{
+    width: 100%;
+    padding: 14px 0 14px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+}
+
+.section-2 .form-field-status{
+    margin-left: auto;
+}
+
+.section-2 .form-button{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 16px;
+}
+
+.section-2 .form-button button{
+    width: calc( (100% - 16px) /2 );
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+}
+/* End Section-2 */
+
+/* Section Dashboard */
+.section-dashboard{
+    padding: 16px 0;
+    font-family: var(--font-1);
+}
+
+.section-dashboard .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-dashboard .inner-wrap{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* End Section Dashboard */
+
+/* Section 1 Document */
+.section-1-document{
+    padding : 20px 0;
+    font-family: var(--font-1);
+}
+
+.section-1-document .inner-wrap{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-1-document .sort-options{
+    padding: 5px 0 5px 5.15px;
+    width: 90px;
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.6)
+}
+
+.section-1-document .form-search{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.section-1-document .icon-search{
+    position: absolute;
+    width: 12.32px;
+    height: 14px;
+    left: 5.47px;
+}
+
+.section-1-document .search-bar {
+    flex: 1;
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.6);
+    padding: 5px 0 5px 17.54px;
+}
+
+/* End Section 1 Document */
+
+/* Section 2 Document */
+.section-2-document{
+    padding: 10px 0;
+    font-family: var(--font-1);
+}
+
+.section-2-document .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-2-document .inner-wrap {
+    background-color: #F5FFFF;
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 19px 0 19px 26px; 
+    gap: 10px;
+}
+
+.section-2-document .inner-author,
+.section-2-document .inner-date-create,
+.section-2-document .inner-status {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    gap: 4px;
+}
+
+.section-2-document .inner-title{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.section-2-document .inner-heart{
+    position: absolute;
+    background-color: transparent;
+    border: none; 
+    color: inherit; 
+    cursor: pointer; 
+    right: 24.53px;
+}
+
+.section-2-document .inner-download{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: rgba(136, 165, 255, 1);
+    color: #fff !important;
+    border: none; 
+    border-radius: 10px 0;
+    color: inherit; 
+    cursor: pointer; 
+    padding: 10px;
+    right: 0;
+    bottom: 0;
+    gap: 8px;
+    text-decoration: none;
+}
+/* end section 2 Document */
