@@ -147,7 +147,7 @@ async function createDocuments(){
                 block.addEventListener("click", () => {
                     const url = new URL("https://anlnhoubookapp.zohocreatorportal.com/#Page:Detail_Document");
                     localStorage.setItem("id", block.getAttribute('id'));
-                    window.location.href = url.href;
+                    window.open(url);
                 });
             });
         });
