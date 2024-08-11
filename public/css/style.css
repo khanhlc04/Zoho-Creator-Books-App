@@ -80,26 +80,6 @@ body{
 }
 /* End Section-2 */
 
-/* Section Dashboard */
-.section-dashboard{
-    padding: 16px 0;
-    font-family: var(--font-1);
-}
-
-.section-dashboard .container{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.section-dashboard .inner-wrap{
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-/* End Section Dashboard */
-
 /* Section 1 Document */
 .section-1-document{
     padding : 20px 0;
