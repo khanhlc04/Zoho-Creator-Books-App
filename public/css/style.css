@@ -37,11 +37,12 @@ body{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    cursor: pointer;
 }
 /* End Section-1 */
 
 /* Section 2 */
-    .section-2{
+.section-2{
     padding: 25px 0;
     font-family: var(--font-1);
 }
@@ -59,10 +60,15 @@ body{
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     border: 1px solid black;
+    cursor: pointer;
 }
 
 .section-2 .form-field-status{
     margin-left: auto;
+}
+
+.section-2 .form-field-status input{
+   cursor: pointer;
 }
 
 .section-2 .form-button{
@@ -77,6 +83,7 @@ body{
     height: 48px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 /* End Section-2 */
 
@@ -96,7 +103,8 @@ body{
     padding: 5px 0 5px 5.15px;
     width: 90px;
     border-radius: 12px;
-    border: 0.5px solid rgba(0, 0, 0, 0.6)
+    border: 0.5px solid rgba(0, 0, 0, 0.6);
+    cursor: pointer;
 }
 
 .section-1-document .form-search{
@@ -111,6 +119,7 @@ body{
     width: 12.32px;
     height: 14px;
     left: 5.47px;
+    cursor: pointer;
 }
 
 .section-1-document .search-bar {
@@ -228,6 +237,7 @@ body{
     font-size: 14px;
     gap: 14px;
     border: none;
+    cursor: pointer;
 }
 
 .section-2-detail .inner-button{
@@ -261,6 +271,7 @@ body{
 .section-2-detail .inner-heart img{
     width: 24px;
     height: 24px;
+    cursor: pointer;
 }
 
 /* end section 2 */
@@ -427,6 +438,7 @@ body{
 .section-7-detail img{
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 
 .section-7-detail .inner-comment{
@@ -446,7 +458,6 @@ body{
 .section-7-detail .inner-stars label {
     font-size: 20px;
     color: #ccc;
-    cursor: pointer;
     transition: color 0.2s;
 }
 
