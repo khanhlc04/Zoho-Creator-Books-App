@@ -99,6 +99,16 @@ async function createDocuments(){
                     });
                 }
             }
+            const section_2_document = document.querySelector('.section-2-document');
+            const allDocumentBlock = section_2_document.querySelectorAll('.inner-wrap');
+            console.log(allDocumentBlock)
+            allDocumentBlock.forEach(block => {
+                block.addEventListener("click", () => {
+                    const url = new URL("https://anlnhoubookapp.zohocreatorportal.com/#Page:Detail_Document");
+                    localStorage.setItem("id", block.getAttribute('id'));
+                    window.location.href = url.href;
+                });
+            });
         });
     });
 }
