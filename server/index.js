@@ -12,10 +12,12 @@ var morgan = require('morgan');
 var serveIndex = require('serve-index');
 var https = require('https');
 var chalk = require('chalk');
-const ClientRouter = require("../routes/client/index.routes");
+var cors = require('cors');
 
 process.env.PWD = process.env.PWD || process.cwd();
 var expressApp = express();
+
+expressApp.use(cors());
 
 var portPromise = portfinder.getPortPromise({
   startPort: 5000,
